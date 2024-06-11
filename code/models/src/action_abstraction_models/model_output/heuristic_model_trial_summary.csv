@@ -1,0 +1,21 @@
+trial_name,agent,start_location,start_location_row,outcome,path_true_reward,discounted_expected_reward
+trial_13_v2,optimist,"[10, 10]",10,1,23,2.2907215925275364
+trial_318,optimist,"[10, 10]",10,0,19,2.4027750677987543
+trial_553,optimist,"[10, 10]",10,1,25,2.897645311474011
+trial_374,optimist,"[1, 1]",1,0,12,1.709789216140966
+trial_920,optimist,"[1, 1]",1,1,20,2.170463311149406
+trial_453,optimist,"[1, 1]",1,0,19,2.5385747456126886
+trial_894,optimist,"[10, 10]",10,1,25,2.333841971445
+trial_863,optimist,"[1, 1]",1,0,16,1.9556250232439614
+trial_989,pessimist,"[1, 1]",1,1,21,2.129928399107804
+trial_269,pessimist,"[1, 1]",1,0,19,2.0864286711221167
+trial_528,pessimist,"[1, 1]",1,1,21,2.1182093925632257
+trial_406,pessimist,"[1, 1]",1,0,18,2.151391965374376
+trial_955,pessimist,"[10, 10]",10,1,20,1.9414697508257628
+trial_962,pessimist,"[1, 1]",1,0,15,2.2382513792751513
+trial_740,pessimist,"[1, 1]",1,1,24,2.75638858000353
+trial_556,pessimist,"[1, 1]",1,0,10,1.8642454183766748
+trial_825,optimist,"[10, 10]",10,0,16,2.3366458370332976
+trial_859,pessimist,"[1, 1]",1,0,15,2.021150461760138
+trial_629,optimist,"[1, 1]",1,1,23,2.6323901775780305
+trial_82,pessimist,"[1, 1]",1,1,20,2.4320932653748057

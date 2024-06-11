@@ -1,0 +1,1 @@
+{"name": "trial_275", "rows": 10, "cols": 10, "agent_type": "pessimist", "agent_start_position": [10, 10], "tree_positions": [[5, 2], [8, 5], [9, 4], [6, 4], [10, 5], [10, 3], [2, 8], [2, 3], [3, 1], [2, 4]], "tree_rewards": [3, 5, 2, 1, 5, 1, 2, 6, 5, 5], "tree_visibility": [0, 1, 0, 1, 1, 1, 1, 1, 1, 0]}

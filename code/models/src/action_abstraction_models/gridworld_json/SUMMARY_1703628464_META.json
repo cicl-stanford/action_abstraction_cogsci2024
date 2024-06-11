@@ -1,0 +1,1 @@
+{"trials": 1000, "agents": ["optimist", "pessimist"], "min_reward": 1, "max_reward": 9, "num_trees": 10, "steps": 10, "target_reward_total": 20, "tree_invisibility_prior": 0.25, "agent_mystery_tree_expected_reward": {"optimist": 8, "pessimist": 2, "unbiased": 5}}

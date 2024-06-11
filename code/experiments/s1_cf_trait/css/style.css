@@ -1,0 +1,185 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-family: 'Sans Serif', Arial, sans-serif;
+  height: 100vh;
+  background-color: #FAEFD1;
+}
+
+#gridworldContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 800px; /* Adjusted to match canvas height */
+  width: 350px; /* Fixed width for the sidebar */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#instructionText, #remainingSteps {
+  font-size: 26px; /* Reduced font size */
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#reminderHeader {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#instructionSubtext {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#agentReminder {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#basketContainer {
+  position: relative; /* Needed for absolute positioning of the counter */
+  align-self: center;
+  width: 300px; /* Width of the basket canvas */
+  margin-top: -80px;
+  margin-bottom: 75px;
+}
+
+#basketContainer:nth-child(2) {
+  margin-top: auto;
+}
+
+#basketCanvas {
+  width: 100%; /* Full width of the basketContainer */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Maximum height of the basket canvas */
+}
+
+#berriesCounter {
+  position: absolute;
+  bottom: -60px; /* Positioning below the basket */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  font-size: 26px; /* Font size for the counter */
+  color: #333; /* Color for the counter */
+}
+
+#submitBtn { /*  #startObservation  */
+  background-color: #FFD400;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 24px; /* Reduced font size */
+  cursor: pointer;
+  align-self: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-top: auto;
+}
+
+#submitBtn:hover { /*  #startObservation:hover  */
+  background-color: #FFA500;
+}
+
+#submitBtn:disabled { /*  #startObservation:disabled  */
+  background-color: #A9A9A9;
+  cursor: default;
+}
+
+#occluder {
+  height: 95vh;
+  width: 99vw;
+  top: 45px;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  font-size: 24px; /* Font size for the counter */
+  background: #FAEFD1;
+  position: absolute;
+  z-index: 12;
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  text-align: center; /* Aligns text in the center if it breaks into multiple lines */
+  flex-direction: column;
+}
+
+#gridworldAndSteps {
+  position: relative; /* Make the container relative to position stepsCanvas absolutely inside it */
+}
+
+#harvestOutcome {
+  font-size: 26px;
+  /* padding-top: 30px; */
+  /* margin-bottom: 30px; */
+  text-align: center;
+  margin-top: 20px;
+}
+
+#promptid {
+  font-size: 24px;
+}
+
+#fullScreenPrompt {
+  position: absolute;
+  margin: auto;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 95%;
+  height: 100%;
+  background-color: #EFCF8F;
+  border: 1px solid #494436;
+  border-radius: 10px;
+}
+
+#fullScreenText {
+  position: absolute;
+  margin: auto;
+  top: -20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 15%;
+  font-size: 3vh;
+  text-align: center;
+  line-height: 12vh;
+}
+
+#fullScreenButton {
+  position: absolute;
+  margin: auto;
+  top: 30%;
+  bottom: 0;
+  z-index: 1000;
+  left: 20px;
+  right: 0;
+  width: 40vh;
+  cursor: pointer;
+  height: 7vh;
+  font-size: 3vh;
+  border-radius: 2vh;
+  border: 0.3vh solid grey;
+}
+
+#fullScreenButton:hover {
+  box-shadow: 0 0.5vh 1vh 0 rgba(0,0,0,0.24), 0 0.7vh 1.5vh 0 rgba(0,0,0,0.19);
+}
