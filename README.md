@@ -33,7 +33,7 @@ Presented at the 46th Annual Meeting of the Cognitive Science Society (2024; Rot
 
 
 <p align="center" style="font-size: smaller">
-  <img width="50%" src="figures/Schemas/schema_fig.png"></img><br/>
+  <img width="50%" src="figures/schemas/schema_fig.png"></img><br/>
   Our approach
 </p>
 
@@ -99,7 +99,7 @@ A demo of the experiment can be found [here](https://justintheyang.github.io/exp
 ## Experiments
 
 <p align="center" style="font-size: smaller">
-  <img width="50%" src="figures/Schemas/expt_overview.png"></img><br/>
+  <img width="50%" src="figures/schemas/expt_overview.png"></img><br/>
   Experiment overview
 </p>
 
